@@ -171,7 +171,7 @@ def generate_diagnostic_plots(lc, tls_results, target_name, assigned_class, conf
     print(f"[+] Saved analysis visualizations to: '{output_filename}'")
 
 
-# UPDATED DATA INGESTION (REPLACE IN SCRIPT)
+# UPDATED DATA INGESTION 
 
 def download_and_clean_lc(tic_id, sector=None):
     """
@@ -206,7 +206,7 @@ def download_and_clean_lc(tic_id, sector=None):
         return None
 
 
-# UPDATED MAIN EXECUTION (REPLACE IN SCRIPT)
+# UPDATED MAIN EXECUTION 
 
 if __name__ == "__main__":
     
@@ -244,7 +244,7 @@ if __name__ == "__main__":
         print(f"Transit Depth             : {features['depth'] * 100:.4f}% flux reduction")
      
 
-                # Step 5: Draw, Save, and Display Plots directly in the Notebook
+        # Step 5: Draw, Save, and Display Plots directly in the Notebook
         generate_diagnostic_plots(cleaned_lc, tls_results, f"TIC_{demo_tic_id}", predicted_category, scalar_confidence)
 
         # Display the saved PNG inline inside your notebook cell output
