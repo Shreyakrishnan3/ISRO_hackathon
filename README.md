@@ -63,7 +63,7 @@ To test performance under realistic operational constraints, the pipeline evalua
 
 Below is the multi-panel validation plot generated automatically by the StellarScan pipeline, tracking the full flattened light curve, periodogram power spectral density, and the phase-folded geometry layout:
 
-![StellarScan Output Diagnostics](output_hackathon.png)
+![StellarScan Output Diagnostics](hackathon_output.png)
 
 * **Top Panel:** Displays the clean, unambiguous periodogram spike right at 3.2872 days with zero competing mathematical aliases.
 * **Bottom Panel:** Shows the phase-folded light curve overlaid with the analytical TLS limb-darkened transit model fit (red line), proving a distinctive planet-like U-shaped transit signature.
